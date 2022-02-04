@@ -1,0 +1,38 @@
+.subtitle {
+  font-size: 30px;
+  /* justify-content: right; */
+  border: black solid 2px;
+  display: block;
+}
+.title {
+  text-align: center;
+  font-size: 50px;
+}
+.container {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  grid-template-columns: repeat(3,150px);
+  grid-template-rows: 100px;
+  column-gap: 100px;
+  
+}
+.box {
+  background-color: gray;
+  display: block;
+  width: auto;
+  height: auto;
+  border : black solid 2px;
+}
+#pink {
+  background-color: pink;
+}
+#red {
+  background-color: red;
+  color: white;
+}
+#ivory {
+  background-color: ivory;
+  justify-content: right;
+
+}
